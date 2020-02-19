@@ -12,6 +12,11 @@ body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
   background-color: #f9f9f9;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 header,
@@ -133,4 +138,16 @@ footer {
   margin-top: auto;
   padding: 16px;
   border-top: 1px solid #eeeeee;
+}
+
+/* JS */
+section.form {
+  transition: all 300ms;
+}
+
+section.form.hide {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin-top: -70px;
 }
