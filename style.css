@@ -1,3 +1,4 @@
+/* reset */
 * {
   box-sizing: border-box;
 }
@@ -19,6 +20,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+/* content */
 header,
 main,
 footer {
