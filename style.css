@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+}
+
+header,
+main,
+footer {
+  text-align: center;
+}
+
+header,
+main,
+.form {
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto 70px auto;
+}
+
+header button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ff4f4f;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* Titles */
+.logo {
+  width: 120px;
+  margin: 30px 0;
+}
+
+main h2 {
+  margin-bottom: 70px;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.8)
+}
+
+main h2 span {
+  color: #ff4f4f;
+}
+
+.form h2 {
+  text-align: right;
+  color: #fff;
+}
+
+
+/* Form */
+section.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 45px;
+  align-items: center;
+  padding: 16px 64px;
+  background-color: #ff4f4f;
+  border-radius: 6px;
+}
+
+form input,
+form button {
+  width: 100%;
+  margin-bottom: 4px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+form input {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+form input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+form button {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Main */
+main .donors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.blood {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #ff4f4f;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.blood::before {
+  content: "";
+  position: absolute;
+  background-color: #ff4f4f11;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  transform: rotate(-45deg);
+}
+
+.donor p {
+  margin-top: 24px;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  padding: 16px;
+  border-top: 1px solid #eeeeee;
+}
