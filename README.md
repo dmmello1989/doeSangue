@@ -2,7 +2,7 @@
 <p align="center">Projeto <strong>Doe Sangue</strong> Desenvolvido durante a 3ª Edição da MaratonaDev da Rocketseat</p>
 <p align="center">
   
-<img align="center" src=".public/full-closed.png"></img>
+<img align="center" src=".github/full-closed.png"></img>
 
 ## :rocket: Tecnologias
 
@@ -16,7 +16,7 @@ O Doe Sangue é uma página simples para incentivar, encontrar e registrar doado
 
 Antes de iniciar a aplicação, conecte o banco de dados pelo Postbird com as informações abaixo. Digite a senha 'root'. 
 
-<img align="center" src=".public/postbird-login.png"></img>
+<img align="center" src=".github/postbird-login.png"></img>
 
 ```
 # Clone esse repositório
